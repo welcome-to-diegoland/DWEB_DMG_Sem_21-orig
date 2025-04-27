@@ -1,16 +1,15 @@
 {
-  "name": "dweb_dmg_sem_21-orig",
+  "name": "mi-api-mvc",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "dev": "node app.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "ejs": "^3.1.10",
-    "express": "^5.1.0"
+    "express": "^4.18.2",
+    "ejs": "^3.1.9"
   }
 }

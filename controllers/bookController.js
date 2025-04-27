@@ -1,4 +1,3 @@
-// controllers/bookController.js
 const books = require('../models/bookModel');
 
 const listBooks = (req, res) => {
@@ -12,7 +11,7 @@ const showBookByIndex = (req, res) => {
   if (book) {
     res.render('book', { book });
   } else {
-    res.status(404).send('Libro no encontrado');
+    res.status(404).send('No se encontró libro!');
   }
 };
 
